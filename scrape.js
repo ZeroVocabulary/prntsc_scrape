@@ -6,7 +6,7 @@ const path = require('path');
 
 const orderedGenerator = generateOrderedId("ql4ixp", "qlgg3x");
 
-const DIRECTORY = "data/images_ordered";
+const DIRECTORY = "data/";
 const GENERATION_METHOD = () => orderedGenerator.next().value;
 const AMOUNT_TO_SCRAPE = Infinity;
 
