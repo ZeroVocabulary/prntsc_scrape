@@ -1,6 +1,6 @@
 # Background
 
-[prnt.sc/Lightshot](https://prnt.sc/) is a website/program for taking screenshots and snippets and sharing them online. When uploading images, it creates a short link to the image that can be shared with others, such as this one:
+[prnt.sc (Lightshot)](https://prnt.sc/) is a website/program for taking screenshots and snippets and sharing them online. When uploading images, it creates a short link to the image that can be shared with others, such as this one:
 
 https://prnt.sc/uccqun
 
