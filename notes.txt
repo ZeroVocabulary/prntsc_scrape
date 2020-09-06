@@ -1,0 +1,37 @@
+6 character combination of letters and numbers
+
+36^6 = ‭2,176,782,336‬ potential images
+
+From our 100 image sample, 67 were valid, so there are probably:
+2,176,782,336 * 0.67 = 1,458,444,165 actual images
+
+Our 67 images from our 100 image sample were 13 MB total, so:
+13 / 67 = 0.194 MB average image size
+
+This means that the actual images have a size of around:
+1,458,444,165 * 0.194 = 282,938,168 MB ~= 283 TB
+
+I have no chance of downloading all of these or getting anywhere close.
+I think I will continue to randomly generate images
+
+It seems like the images are uploaded in order?
+I uploaded and got ql4ak5.
+When I changed the first letter to r,s,t,u,etc. I got nothing.
+When I changed the first letter to p,o,s etc (letters before q) i got images
+I just tested with the program, all codes r and above are invalid.
+
+So I probably can change my first character to be random from 0 to q,
+and waste less time.
+I changed it and now I got 96/100 images instead of 67/100 images.
+I get this error still:
+Error: The "url" argument must be of type string. Received type undefined
+I don't know whats causing it but it doesn't seem to matter.
+I got 4 invalid urls, which accounts for the 4 missing from 96/100.
+I also got 4 of those undefined errors but there's no missing images for those.
+I have some broken images that start with 0,
+and I noticed those ones just take you to the homepage,
+so I will skip those as well, and not do any ids starting with 0.
+
+This also allows us to estimate dates, potentially extremely well.
+They probably get many images uploaded per minute, and some will have dates,
+so we can probably get dates down to the day/hour or even minute.
