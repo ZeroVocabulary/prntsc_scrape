@@ -30,6 +30,7 @@ It can be run by calling scrape.js:
 ```
 node scrape.js
 ```
+
 This tool was intended to be customized by modifying the source code, since that gave the most flexibility for a small WIP project like this. The particular code I recommend editing is the DIRECTORY, GENERATION_METHOD, and AMOUNT_TO_SCRAPE variables.
 ```
 const DIRECTORY = "data/images_ordered";
